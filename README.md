@@ -7,7 +7,6 @@ Proyectos y códigos en ReactJS de aprendizaje personal.
 - 📂 **crm-react**: Básico CRM para listado de clientes.
 - 📂 **daw-pensum**: Frontend para consumir API sobre materias universitarias.
 - 📂 **Proyecto3**: próximamente.
-- ...
 
 ## 🚀 Empezar
 
@@ -26,7 +25,7 @@ Puedes contribuir con proyectos nuevos o mejores. Haz esto:
 
 ## 📚 Recursos
 
-- [React]([https://reactjs.org/docs/getting-started.html](https://react.dev/learn))
+- [React](https://react.dev/learn)
 - [React Router](https://reactrouter.com/)
 
 ## 📃 Licencia
