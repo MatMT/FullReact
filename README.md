@@ -29,7 +29,7 @@ Puedes contribuir con proyectos nuevos o mejores. Haz esto:
 - [React Router](https://reactrouter.com/)
 
 ## 📃 Licencia
-Este proyecto tiene la Licencia MIT. Mira el archivo [LICENSE](LICENSE) para más información.
+Este proyecto tiene la Licencia GNU 3. Mira el archivo [LICENSE](LICENSE) para más información.
 
 Aprende ReactJS y haz proyectos increíbles. Si tienes dudas o ideas, crea un issue o contáctame.
 
