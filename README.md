@@ -11,7 +11,7 @@ Proyectos y códigos en ReactJS de aprendizaje personal.
 ## 🚀 Empezar
 
 1. Clona el repositorio con `git clone`.
-2. cd hacía el proyecto que deseado.
+2. cd hacía el proyecto deseado.
 3. Ejecuta comando de inicialización de npm.
 
 ## 💡 Contribuir
