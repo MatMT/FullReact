@@ -1,5 +1,7 @@
 export default function NuevoCliente() {
     return (
-        <div>NuevoCliente</div>
+        <div className="p-10">
+            <div>NuevoCliente</div>
+        </div>
     )
 }

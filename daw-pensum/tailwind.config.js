@@ -10,7 +10,6 @@ export default {
   },
   plugins: [
     require('daisyui'),
-    // ...otros complementos...
   ],
   
   
