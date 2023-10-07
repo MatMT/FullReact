@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     './index.html',
@@ -7,6 +8,12 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+    // ...otros complementos...
+  ],
+  
+  
 }
+
 
