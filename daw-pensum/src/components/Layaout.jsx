@@ -5,10 +5,15 @@ export default function Layaout() {
 
     return (
         <div className='md:flex md:min-h-screen'>
-            <aside className='md:w-1/4 bg-teal-500 px-5 py-10'>
-                <h2 className='text-3xl font-black text-center text-white'> | DAW404 | Pensum UDB</h2>
+            <aside className='md:w-1/4 bg-slate-900 px-5 py-10'>
+                <h2 className='text-3xl font-black text-center text-white'> DAW404 | Pensum UDB</h2>
 
                 <nav className='mt-12 grid font-semibold gap-2 text-2xl text-white'>
+                    <Link
+                        to="/main"
+                        className={`p-2 ${location.pathname === '/main' ? 'seccionActual' : ''}`}>
+                        Main
+                    </Link>
                     <Link
                         to="/clientes/nuevo"
                         className={`p-2 ${location.pathname === '/clientes/nuevo' ? 'seccionActual' : ''}`}>
@@ -19,6 +24,7 @@ export default function Layaout() {
                         className={`p-2 ${location.pathname === '/' ? 'seccionActual' : ''}`}>
                         Carreras
                     </Link>
+                    
                 </nav>
             </aside>
 
