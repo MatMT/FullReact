@@ -29,7 +29,7 @@ export default function Main() {
       </div>
 
       <div className="flex w-full justify-center mt-[3rem]">
-        <button className="btn bg-blue-900">Iniciar Sesión</button>
+        <button className="btn bg-blue-900 text-white">Iniciar Sesión</button>
       </div>
 
       <div className="flex w-full pr-[2rem] items-center justify-center text-black mt-[3rem]">
@@ -41,11 +41,11 @@ export default function Main() {
         <div className="flex flex-col">
           <ul>
             <h1 className="text-2xl font-bold mb-2">Integrantes</h1>
-            <li>Marcelo Cruz</li>
-            <li>Mateo Elias</li>
-            <li>Eleazar Amaya</li>
-            <li>Victor Garcia</li>
-            <li>Oscar Emmanuel</li>
+            <li>- Marcelo Cruz</li>
+            <li>- Mateo Elias</li>
+            <li>- Eleazar Amaya</li>
+            <li>- Victor Garcia</li>
+            <li>- Oscar Arce</li>
           </ul>
         </div>
       </div>

@@ -46,7 +46,7 @@ export default function Profile() {
           </div>
 
           <div className="flex w-full justify-center mt-[3rem]">
-            <button className="btn bg-blue-900">Iniciar Sesión</button>
+            <button className="btn bg-blue-900 text-white">Cerrar Sesión</button>
           </div>
         </div>
       </div>
