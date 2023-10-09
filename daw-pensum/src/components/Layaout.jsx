@@ -22,6 +22,11 @@ export default function Layaout() {
                     <Link
                         to="/"
                         className={`p-2 ${location.pathname === '/' ? 'seccionActual' : ''}`}>
+                        MatiView
+                    </Link>
+                    <Link
+                        to="/carreras"
+                        className={`p-2 ${location.pathname === '/carreras' ? 'seccionActual' : ''}`}>
                         Carreras
                     </Link>
                     <Link
