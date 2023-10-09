@@ -24,6 +24,11 @@ export default function Layaout() {
                         className={`p-2 ${location.pathname === '/' ? 'seccionActual' : ''}`}>
                         Carreras
                     </Link>
+                    <Link
+                        to="/profile"
+                        className={`p-2 ${location.pathname === '/profile' ? 'seccionActual' : ''}`}>
+                        Perfil
+                    </Link>
                     
                 </nav>
             </aside>

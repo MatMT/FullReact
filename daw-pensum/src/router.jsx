@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Layaout from './components/Layaout';
 import NuevoCliente from './pages/NuevoCliente';
 import Main from './pages/Main';
+import Profile from './pages/Profile';
 // Renombro loader
 import Index, { loader as clientesLoader } from './pages';
 
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
             {
                 path: '/main',
                 element: <Main />
+            },
+            {
+                path: '/profile',
+                element: <Profile />
             },]
     },
     
