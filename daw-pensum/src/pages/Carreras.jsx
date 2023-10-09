@@ -32,7 +32,7 @@ export default function Carreras() {
         <h1 className="text-2xl font-bold text-black">Técnicos</h1>
       </div>
 
-      <div className="flex w-full mt-4">
+      <div className="flex w-full mt-4 mb-10">
         <div className="flex w-[30rem] h-[16rem] ml-[2rem] bg-slate-500">
         Técnico en Ingeniería en Computación
         </div>
