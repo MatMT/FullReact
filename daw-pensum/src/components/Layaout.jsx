@@ -5,7 +5,7 @@ export default function Layaout() {
 
     return (
         <div className='md:flex md:min-h-screen'>
-            <aside className='md:w-1/4 bg-slate-900 px-5 py-10'>
+            <aside className='md:w-1/4 bg-blue-950 px-5 py-10'>
                 <h2 className='text-3xl font-black text-center text-white'> DAW404 | Pensum UDB</h2>
 
                 <nav className='mt-12 grid font-semibold gap-2 text-2xl text-white'>

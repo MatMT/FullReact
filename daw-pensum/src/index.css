@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .seccionActual {
-  @apply bg-teal-600 rounded-lg;
+  @apply bg-blue-900 rounded-lg pl-3;
 }
