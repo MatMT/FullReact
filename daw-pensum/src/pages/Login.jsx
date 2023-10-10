@@ -1,4 +1,5 @@
 import { useFormik } from "formik";
+import { useAuth } from "../hooks/useAuth";
 
 export default function NuevoCliente() {
     const formik = useFormik({
@@ -6,11 +7,15 @@ export default function NuevoCliente() {
             carnet: '',
             password: ''
         },
-        obSubmit: valores => {
+        onSubmit: valores => {
             console.log(valores);
         }
     });
 
+    const { login } = useAuth({
+        middleware: 'guest',
+        url: '/'
+    })
 
     return (
         <div className="p-10">
@@ -22,7 +27,7 @@ export default function NuevoCliente() {
                     >
                         <div>
                             <label className="label">
-                                <span className="text-base label-text">Carnet UDB</span>
+                                <span className="text-base text-black label-text">Carnet UDB</span>
                             </label>
                             <input type="text"
                                 placeholder="Carnet UDB"
@@ -34,7 +39,7 @@ export default function NuevoCliente() {
                         </div>
                         <div>
                             <label className="label">
-                                <span className="text-base label-text">Contraseña</span>
+                                <span className="text-base text-black label-text">Contraseña</span>
                             </label>
                             <input type="password" placeholder="Ingresa tu contraseña"
                                 className="w-full input input-bordered"
