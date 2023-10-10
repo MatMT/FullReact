@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 // Componentes
 import Layaout from './components/Layaout';
-import NuevoCliente from './pages/NuevoCliente';
+import Login from './pages/Login';
 import Main from './pages/Main';
 import Carreras from './pages/Carreras';
 import Profile from './pages/Profile';
@@ -20,7 +20,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/clientes/nuevo',
-                element: <NuevoCliente />
+                element: <Login />
             },
             {
                 path: '/main',
@@ -35,5 +35,5 @@ export const router = createBrowserRouter([
                 element: <Profile />
             },]
     },
-    
+
 ]);
